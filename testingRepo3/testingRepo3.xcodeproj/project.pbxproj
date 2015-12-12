@@ -53,6 +53,7 @@
 		996C74951C1C5C7E006640A1 /* testingRepo3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testingRepo3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		996C74991C1C5C7E006640A1 /* testingRepo3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testingRepo3UITests.m; sourceTree = "<group>"; };
 		996C749B1C1C5C7E006640A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		996C74AE1C1C5F8A006640A1 /* testingRepo4.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = testingRepo4.xcodeproj; path = testingRepo4/testingRepo4.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 		996C74651C1C5C7E006640A1 = {
 			isa = PBXGroup;
 			children = (
+				996C74AE1C1C5F8A006640A1 /* testingRepo4.xcodeproj */,
 				996C74701C1C5C7E006640A1 /* testingRepo3 */,
 				996C748D1C1C5C7E006640A1 /* testingRepo3Tests */,
 				996C74981C1C5C7E006640A1 /* testingRepo3UITests */,
@@ -141,6 +143,13 @@
 				996C749B1C1C5C7E006640A1 /* Info.plist */,
 			);
 			path = testingRepo3UITests;
+			sourceTree = "<group>";
+		};
+		996C74AF1C1C5F8A006640A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +244,12 @@
 			mainGroup = 996C74651C1C5C7E006640A1;
 			productRefGroup = 996C746F1C1C5C7E006640A1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 996C74AF1C1C5F8A006640A1 /* Products */;
+					ProjectRef = 996C74AE1C1C5F8A006640A1 /* testingRepo4.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				996C746D1C1C5C7E006640A1 /* testingRepo3 */,
