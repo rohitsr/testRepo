@@ -54,6 +54,7 @@
 		996C74991C1C5C7E006640A1 /* testingRepo3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testingRepo3UITests.m; sourceTree = "<group>"; };
 		996C749B1C1C5C7E006640A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		996C74AE1C1C5F8A006640A1 /* testingRepo4.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = testingRepo4.xcodeproj; path = testingRepo4/testingRepo4.xcodeproj; sourceTree = "<group>"; };
+		996C74B81C1C602B006640A1 /* testingRepo5.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = testingRepo5.xcodeproj; path = ../testingRepo5/testingRepo5.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 		996C74651C1C5C7E006640A1 = {
 			isa = PBXGroup;
 			children = (
+				996C74B81C1C602B006640A1 /* testingRepo5.xcodeproj */,
 				996C74AE1C1C5F8A006640A1 /* testingRepo4.xcodeproj */,
 				996C74701C1C5C7E006640A1 /* testingRepo3 */,
 				996C748D1C1C5C7E006640A1 /* testingRepo3Tests */,
@@ -146,6 +148,13 @@
 			sourceTree = "<group>";
 		};
 		996C74AF1C1C5F8A006640A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		996C74B91C1C602B006640A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -248,6 +257,10 @@
 				{
 					ProductGroup = 996C74AF1C1C5F8A006640A1 /* Products */;
 					ProjectRef = 996C74AE1C1C5F8A006640A1 /* testingRepo4.xcodeproj */;
+				},
+				{
+					ProductGroup = 996C74B91C1C602B006640A1 /* Products */;
+					ProjectRef = 996C74B81C1C602B006640A1 /* testingRepo5.xcodeproj */;
 				},
 			);
 			projectRoot = "";
